@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/main-header.css" rel="stylesheet">
+        <link href="css/section.css" rel="stylesheet">
+        <link href="css/about-me-navbar.css" rel="stylesheet">
+        <link href="css/about-me-section.css" rel="stylesheet">
+        <link href="css/motorcycles-table.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <script defer src="js/script.js"></script>
+        <title>Wojciech Leksza - o mnie</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <ul class="header">
+                    <li class="header__item">
+                        e-mail: wojtek.leksza@gmail.com
+                    </li>
+                    <li class="header__item">
+                        tel: 987654321
+                    </li>
+                    <li class="header__item">
+                        NIP: 6392015777
+                    </li>
+                </ul>
+            </header>
+            <main>
+                <h1 class="mainHeader">Wojciech Leksza - o mnie</h1>
+                <nav class="aboutMeNavbar">
+                    <ul>
+                        <li class="aboutMeNavbar__item">
+                            <a class="aboutMeNavbar__link" href="#aboutMe">O
+                                mnie</a>
+                        </li>
+                        <li class="aboutMeNavbar__item">
+                            <a class="aboutMeNavbar__link" href="#myProfession">Mój
+                                zawód</a>
+                        </li>
+                        <li class="aboutMeNavbar__item">
+                            <a class="aboutMeNavbar__link" href="#myHobbies">Moje
+                                zainteresowania</a>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="section aboutMeSection" id="aboutMe">
+                    <h2 class="section__header">Kim jestem?</h2>
+                    <img class="aboutMeSection__picture js-picture"
+                        src="images/my_picture_1.jpg" alt="Zdjęcie Wojciech
+                        Leksza">
+                    <button class="aboutMeSection__button js-previousButton
+                        hide">Poprzednie
+                        zdjęcie</button>
+                    <button class="aboutMeSection__button js-nextButton">Następne
+                        zdjęcie</button>
+                    <p>
+                        Cześć! Nazywam się <b>Wojciech Leksza</b>. Mam 26 lat i
+                        mieszkam w Raciborzu.<br>
+                        Jestem człowiekiem otwartym na wiedzę i nie boję się
+                        wyzwań.
+                        Chętnie podejmuję się
+                        rozwiązań różnych problemów.
+                    </p>
+                </section>
+                <section class="section" id="myProfession">
+                    <h2 class="section__header">Czym się zajmuję?</h2>
+                    <h3>Spawanie</h3>
+                    <p>
+                        Zawodowo pracowałem głównie jako <span class="text-red">ślusarz/spawacz</span>.
+                        Wraz z
+                        zespołem wykonywaliśmy konstrukcje stalowe dla dużych
+                        firm z
+                        <em>całego świata</em>,
+                        takich jak np. <i>Bayer</i> czy <i>Coca-Cola</i>.
+                    </p>
+                    <h3>Programowanie</h3>
+                    <p>
+                        Aktualnie skupiam się na nauce programowania. Od zawsze
+                        chiałem to robić. Wcześniej
+                        hobbystycznie rozwijałem swoje umiejętności w
+                        programowaniu
+                        sterowników PLC i mikrokontrolerów.
+                        Ostatecznie jednak wybrałem <i>Frontend</i>, dlatego
+                        dołączyłem do kursu
+                        <strong class="section__strong">YouCode</strong>.
+                    </p>
+                </section>
+                <section class="section" id="myHobbies">
+                    <h2 class="section__header">Jakie są moje zainteresowania?</h2>
+                    <h3>Akwarystyka</h3>
+                    <p>
+                        Tym tematem zainteresowałem się, gdy mój tata kupił
+                        nasze
+                        pierwsze akwarium.
+                        Był to mały zbiornik, miał jedynie 60 litrów. Nie
+                        przeszkadzało to jednak w kształtowaniu
+                        mojej pasji. Teraz, kiedy jestem już na swoim w końcu
+                        mogłem
+                        sobie pozwolić na coś ciut
+                        większego - 200 litrów. Obecnie to akwarium jest w fazie
+                        dojrzewania i mam nadzieję, że
+                        równolegle z jego dojrzewaniem, będą się rozwijały moje
+                        umiejętności programowania. :)
+                    </p>
+                    <h3>Motocykle</h3>
+                    <p>
+                        Pomimo tego, że jeszcze nie mam prawa jazdy na
+                        motocykle,
+                        zawsze zajmowały one specjalne
+                        miejsce w moim sercu. Od małego lubiłem grzebać przy
+                        swoich
+                        motorowerach i niezmiennie jest
+                        to mój ulubiony środek transportu. Postanowiłem więc
+                        podzielić się z Wami listą moim zdaniem
+                        najlepszych maszyn.
+                    </p>
+                    <div class="motorcyclesTable__container">
+                        <table class="motorcyclesTable">
+                            <caption class="motorcyclesTable__caption">Najlepsze
+                                motocykle</caption>
+                            <thead class="motorcyclesTable__header">
+                                <tr class="motorcyclesTable__row">
+                                    <th class="motorcyclesTable__cell
+                                        motorcyclesTable__cell--header"
+                                        scope="col">Marka</th>
+                                    <th class="motorcyclesTable__cell
+                                        motorcyclesTable__cell--header"
+                                        scope="col">Model</th>
+                                    <th class="motorcyclesTable__cell
+                                        motorcyclesTable__cell--header"
+                                        scope="col">Pojemność</th>
+                                    <th class="motorcyclesTable__cell
+                                        motorcyclesTable__cell--header"
+                                        scope="col">Lata
+                                        produkcji</th>
+                                </tr>
+                            </thead>
+                            <tbody class="motorcyclesTable__body">
+                                <tr class="motorcyclesTable__row">
+                                    <th class="motorcyclesTable__cell
+                                        motorcyclesTable__cell--header"
+                                        scope="row">Simson</th>
+                                    <td class="motorcyclesTable__cell">S51</td>
+                                    <td class="motorcyclesTable__cell">50ccm</td>
+                                    <td class="motorcyclesTable__cell">1980-1990</td>
+                                </tr>
+                                <tr class="motorcyclesTable__row">
+                                    <th class="motorcyclesTable__cell
+                                        motorcyclesTable__cell--header"
+                                        scope="row">Yamaha</th>
+                                    <td class="motorcyclesTable__cell">YZF-R125</td>
+                                    <td class="motorcyclesTable__cell">125ccm</td>
+                                    <td class="motorcyclesTable__cell">od 2008</td>
+                                </tr>
+                                <tr class="motorcyclesTable__row">
+                                    <th class="motorcyclesTable__cell
+                                        motorcyclesTable__cell--header"
+                                        scope="row" rowspan="2">Ducati</th>
+                                    <td class="motorcyclesTable__cell">Diavel</td>
+                                    <td class="motorcyclesTable__cell">1198ccm</td>
+                                    <td class="motorcyclesTable__cell">od 2011</td>
+                                </tr>
+                                <tr class="motorcyclesTable__row">
+                                    <td class="motorcyclesTable__cell">Multistrada</td>
+                                    <td class="motorcyclesTable__cell">1198ccm</td>
+                                    <td class="motorcyclesTable__cell">od 2010</td>
+                                </tr>
+                                <tr class="motorcyclesTable__row">
+                                    <th class="motorcyclesTable__cell
+                                        motorcyclesTable__cell--header"
+                                        scope="row">BMW</th>
+                                    <td class="motorcyclesTable__cell">R 1200 GS</td>
+                                    <td class="motorcyclesTable__cell">1170ccm</td>
+                                    <td class="motorcyclesTable__cell">od 2004</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p class="footer">Wszelkie prawa zastrzeżone.</p>
+            </footer>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,26 @@
+.aboutMeSection {
+    text-align: center;
+}
+
+.aboutMeSection__picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.aboutMeSection__button {
+    background-color: #fff;
+    color: #c21306;
+    border: solid 2px #c21306;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.aboutMeSection__button:hover {
+    background-color: #eee;
+    outline: solid 1px #c21306;
+    border-radius: 5px;
+}

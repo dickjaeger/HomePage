@@ -1,0 +1,33 @@
+.aboutMeNavbar {
+    text-align: center;
+}
+
+.aboutMeNavbar__item {
+    display: inline-block;
+    padding-right: 30px;
+    list-style: none;
+
+}
+
+.aboutMeNavbar__link{
+    text-decoration: none;
+    color: #c21306;
+}   
+
+.aboutMeNavbar__link:focus {
+    outline-style: solid;
+    border-radius: 1px;
+    outline-offset: 3px;
+    outline-color: #c21306;
+    outline-width: 2px;
+    text-decoration: none !important;
+}
+
+.aboutMeNavbar__link:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #4442;
+}
+
+.aboutMeNavbar__link:active {
+    color: #f00;
+}

@@ -1,0 +1,40 @@
+.motorcyclesTable {
+    width: 90%;
+    margin: 30px auto 0;
+    background-color: #fff;
+    border: 1px solid #444;
+    border-collapse: collapse;
+}
+
+.motorcyclesTable__container {
+    overflow: auto;
+}
+
+.motorcyclesTable__caption {
+    caption-side: bottom;
+    text-align: right;
+}
+
+
+.motorcyclesTable__header {
+    text-decoration: underline;
+}
+
+.motorcyclesTable__cell {
+    text-align: center;
+    padding: 15px;
+}
+
+.motorcyclesTable__cell--header {
+    border: 1px solid #444;
+    background-color: #c3ccae;
+    color: #222;
+}
+
+.motorcyclesTable__body .motorcyclesTable__row:nth-child(even) {
+    background-color: #eee;
+}
+
+.motorcyclesTable__body .motorcyclesTable__row:hover {
+    background-color: #ddd;
+}
