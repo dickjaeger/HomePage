@@ -6,10 +6,6 @@
     border-collapse: collapse;
 }
 
-.motorcyclesTable__container {
-    overflow: auto;
-}
-
 .motorcyclesTable__caption {
     caption-side: bottom;
     text-align: right;
